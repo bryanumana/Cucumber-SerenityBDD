@@ -18,5 +18,6 @@ public class SearchCoursePage extends PageObject {
     public static final Target COURSE_SELECT= Target.the("selects the course")
             .located(By.xpath("(//*[text() = 'Patrones de Automatizaci\u00f3n'])[1]"));
 
-
+    public static final Target NAME_COURSE= Target.the("course name")
+            .located(By.xpath("//h1[contains(text(), 'Patrones de Automatizaci\u00f3n')]"));
 }

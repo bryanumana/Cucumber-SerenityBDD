@@ -2,6 +2,7 @@ package co.com.choucair.screenplay.proyectobase.stepdefinitions;
 
 
 
+import co.com.choucair.screenplay.proyectobase.model.UserData;
 import co.com.choucair.screenplay.proyectobase.questions.Answer;
 import co.com.choucair.screenplay.proyectobase.tasks.Login;
 import co.com.choucair.screenplay.proyectobase.tasks.Search;
@@ -15,6 +16,8 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import co.com.choucair.screenplay.proyectobase.tasks.OpenUp;
 
+import java.util.List;
+
 public class UTestAccountStepDefinitions {
 
     @Before
@@ -23,8 +26,14 @@ public class UTestAccountStepDefinitions {
     }
 
     @Given("^than BUGH wants to learn automation at the Choucair Academy$")
-    public void thanBUGHWantsToLearnAutomationAtTheChoucairAcademy() {
-        OnStage.theActorCalled("Bugh").wasAbleTo(OpenUp.thePage(), (Login.onThePage()));
+    public void thanBUGHWantsToLearnAutomationAtTheChoucairAcademy(List<UserData> userDataList) {
+        OnStage.theActorCalled("Bugh").wasAbleTo(
+                OpenUp.thePage(),
+                Login.onThePage(
+                        userDataList.get(0).getStrUserName(),
+                        userDataList.get(0).getStrPassword()
+                )
+        );
 
     }
 

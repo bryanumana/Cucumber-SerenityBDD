@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2087a0-3607-45a8-9fd7-c7610b10354e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/screenplay/proyectobase/tasks/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/screenplay/proyectobase/userinterface/ChoucairLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/screenplay/proyectobase/tasks/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/screenplay/proyectobase/userinterface/SearchCoursePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,8 +14,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/choucair/screenplay/proyectobase/stepdefinitions/UTestAccountStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/com/choucair/screenplay/proyectobase/stepdefinitions/UTestAccountStepDefinitions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Choucair#20Academy.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Choucair#20Academy.html" afterDir="false" />
@@ -23,12 +21,14 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.screenplay.proyectobase.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.screenplay.proyectobase.runners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/choucair_academy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/choucair_academy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Choucair#20Academy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Choucair#20Academy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.screenplay.proyectobase.runners.RunnersTags.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.screenplay.proyectobase.runners.RunnersTags.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/screenplay/proyectobase/stepdefinitions/UTestAccountStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/screenplay/proyectobase/stepdefinitions/UTestAccountStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/choucair_academy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/choucair_academy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b3b603f56f7d7909885f4dc596b2bf7ffdf146b82b8c71d78032f38102b15ed_screenshots.html" afterDir="false" />

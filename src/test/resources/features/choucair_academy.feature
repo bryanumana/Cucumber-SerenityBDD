@@ -6,7 +6,7 @@ Feature: Choucair Academy
   @Scenario1
   Scenario: Search for automation course
     Given than BUGH wants to learn automation at the Choucair Academy
-    When he searches for the course Recursos Automatizacion Bancolombia on the Choucair Academy
-    Then he finds the course called Recursos Automatizacion Bancolombia
+    When he searches for the course Patrones de Automatización  on the Choucair Academy
+    Then he finds the course called Patrones de Automatización
 
 

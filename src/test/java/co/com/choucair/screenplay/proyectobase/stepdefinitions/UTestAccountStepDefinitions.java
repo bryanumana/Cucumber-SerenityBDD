@@ -2,6 +2,7 @@ package co.com.choucair.screenplay.proyectobase.stepdefinitions;
 
 
 
+import co.com.choucair.screenplay.proyectobase.tasks.Login;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -19,7 +20,7 @@ public class UTestAccountStepDefinitions {
 
     @Given("^than BUGH wants to learn automation at the Choucair Academy$")
     public void thanBUGHWantsToLearnAutomationAtTheChoucairAcademy() {
-        OnStage.theActorCalled("Bugh").wasAbleTo(OpenUp.thePage());
+        OnStage.theActorCalled("Bugh").wasAbleTo(OpenUp.thePage(), (Login.onThePage()));
 
     }
 
